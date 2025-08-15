@@ -6,8 +6,8 @@ Before denoising
 
 
 ### After denoising
+<iframe width="560" height="315" src="https://youtu.be/KWNg9bRSV3U" frameborder="0" allowfullscreen></iframe>
 
-<https://youtu.be/KWNg9bRSV3U>
 
 ## Real-world Image
 ### Before Denoising

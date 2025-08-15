@@ -15,6 +15,10 @@ Before denoising
 ### Before Denoising
 
 
+https://github.com/user-attachments/assets/bbfe7f2e-0c6a-473f-a4dc-f85483e42ccf
+
+
+
 
 ## After Denoising
 

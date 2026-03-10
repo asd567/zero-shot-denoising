@@ -1,5 +1,7 @@
 # zero-shot-denoising
 
+
+
 ## video
 Before denoising
 ### Before Denoising
@@ -12,16 +14,20 @@ https://github.com/user-attachments/assets/bbfe7f2e-0c6a-473f-a4dc-f85483e42ccf
 ### Before Denoising
 
 
-
-
-
-
-
 ## After Denoising
 
 
-Code will be available.
+## Training
 
+```python
+python train.py --image_path ./image.png --noise FIM_mixed --save_dir ./checkpoints
+```
+
+## Inference
+
+```python
+python inference.py --input_path ./image.png --model_path ./checkpoints/noist2patern_epochx.pth --output_dir ./results
+```
 
 ## requirments
 torch>=1.10.0

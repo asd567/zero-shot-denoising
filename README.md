@@ -2,33 +2,44 @@
 
 
 
-## video
+# Real-world video
 Before denoising
-### Before Denoising
+## Before Denoising
 https://github.com/user-attachments/assets/bbfe7f2e-0c6a-473f-a4dc-f85483e42ccf
 
-### After denoising
+# After denoising
 
 
-## Real-world Image
-### Before Denoising
+# Real-world Image
+
+
 ![Alt text](https://github.com/asd567/zero-shot-denoising/blob/main/results/image.png)
 
 
+![Alt text](https://github.com/asd567/zero-shot-denoising/blob/main/results/image2.jpg)
 
-## Training
+
+# Training
+
+## Single Image Training
 
 ```python
 python train.py --image_path ./image.png --noise FIM_mixed --save_dir ./checkpoints
 ```
 
-## Inference
+## Directory Image
+
+```python
+python train.py --data_dir ./data_input --noise FIM_mixed --save_dir ./checkpoints
+```
+
+# Inference
 
 ```python
 python inference.py --input_path ./image.png --model_path ./checkpoints/noist2patern_epochx.pth --output_dir ./results
 ```
 
-## requirments
+# requirments
 
 torch>=1.10.0
 
